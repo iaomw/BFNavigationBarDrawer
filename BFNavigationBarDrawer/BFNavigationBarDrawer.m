@@ -101,7 +101,7 @@ typedef NS_ENUM(NSInteger, BFNavigationBarDrawerState) {
 												 toItem:nil
 											  attribute:NSLayoutAttributeNotAnAttribute
 											 multiplier:1
-											   constant:44];
+											   constant:CGRectGetHeight(self.frame)];
 	[self addConstraint:constraint];
 }
 
