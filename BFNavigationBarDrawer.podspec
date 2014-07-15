@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                   contentInset property, when the drawer is displayed.
                   DESC
   s.source    = { 
-    :git => "https://github.com/DrummerB/BFNavigationBarDrawer.git",
+    :git => "https://github.com/iaomw/BFNavigationBarDrawer.git",
     :tag =>  s.version.to_s
   }
 
